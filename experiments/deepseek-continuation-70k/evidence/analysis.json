@@ -1,0 +1,90 @@
+{
+  "events": {
+    "policy-changed": 1,
+    "dispatch-prepared": 8,
+    "model-response": 8,
+    "focus-changed": 1
+  },
+  "steps": [
+    {
+      "status": "received",
+      "invitation": "variation",
+      "mode": "work",
+      "occurrence": "o000009"
+    },
+    {
+      "status": "received",
+      "invitation": "explore",
+      "mode": "work",
+      "occurrence": "o000010"
+    },
+    {
+      "status": "received",
+      "invitation": "method-nomination",
+      "mode": "read",
+      "occurrence": "o000011"
+    },
+    {
+      "status": "received",
+      "invitation": "develop",
+      "mode": "work",
+      "occurrence": "o000012"
+    },
+    {
+      "status": "received",
+      "invitation": "examine",
+      "mode": "work",
+      "occurrence": "o000013"
+    },
+    {
+      "status": "received",
+      "invitation": "method-nomination",
+      "mode": "read",
+      "occurrence": "o000014"
+    },
+    {
+      "status": "received",
+      "invitation": "respond",
+      "mode": "work",
+      "occurrence": "o000015"
+    },
+    {
+      "status": "received",
+      "invitation": "read",
+      "mode": "work",
+      "occurrence": "o000016"
+    },
+    {
+      "status": "limit",
+      "invitation": null,
+      "mode": null,
+      "occurrence": null
+    }
+  ],
+  "additional_charged": 63994,
+  "observed_input": 43684,
+  "observed_output": 7756,
+  "unknown_calls": 8,
+  "accounts": [
+    {
+      "before": {
+        "method_revision": 1,
+        "focus_revision": 2,
+        "uses": [],
+        "phase": "work"
+      },
+      "after": {
+        "method_revision": 1,
+        "focus_revision": 3,
+        "uses": [],
+        "phase": "nomination"
+      }
+    }
+  ],
+  "bindings": 0,
+  "dependency_queue": [],
+  "notices": [
+    "Nomination did not start a trial; its prose remains available.",
+    "Nomination did not start a trial; its prose remains available."
+  ]
+}

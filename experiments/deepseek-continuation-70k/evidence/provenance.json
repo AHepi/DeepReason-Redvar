@@ -1,0 +1,21 @@
+{
+  "local_head": "1b11e276da61102758f97a7077577b4956435ee4",
+  "remote_baseline": "a3def2e924b802b4a9088aa6c751083d42f08d7c",
+  "source_sha256": {
+    "src/open_inquiry/__init__.py": "2a65255e3c27a2f112945300788bf7a5713e6668d5dc9d0b91dac63a3e947264",
+    "src/open_inquiry/__main__.py": "c79280bf647eb5280c138927a057a649addb46554ba8aebef6a989dacf9a2e68",
+    "src/open_inquiry/checking.py": "0f1f01f88a0ddc1bb7844326a3250419e50570b3e295e50e4da06684182dd15d",
+    "src/open_inquiry/cli.py": "9278ec4dd7e2be51776fa87577e10b4badc74f9b0e12293aa0c22b4249c8d1db",
+    "src/open_inquiry/collection.py": "e058512e28cbf586b7b8931b1affb8d8061cad7bef6ef6ba2423f87659d09425",
+    "src/open_inquiry/config.py": "1040c97d837b4b501d0dc85ff98cf7fbdfaed91a24c8eb175faec141846b112e",
+    "src/open_inquiry/context.py": "86a82cca54b8d77f6f9cbcbdf1d84304680d3865f208b5af15f03c9ec47edd0d",
+    "src/open_inquiry/cursors.py": "f7e8112fd3cbd589aa8bde52df75d19dbfcc1d5d16bdcd7579253a0e39e6a042",
+    "src/open_inquiry/engine.py": "5ae49c2d1b37091d18087aac184758bf03faa7dd7f1e9f05eac17eb95549af80",
+    "src/open_inquiry/mediation.py": "8640e4bc63b2da7b089485171347116d61eb3001584597b9f5b0020597ac40c0",
+    "src/open_inquiry/persistence.py": "fc639c377e27a5520e62b00f1d1085e6ade5288322cf95729cb5d83bc0ec03b2",
+    "src/open_inquiry/providers.py": "8727a29a6ae262b0b6ae94f59c4975c4183989ae42e5802909f9d075eab82b49",
+    "src/open_inquiry/resources.py": "ebd9abe5f6f5789d27f9c61f5d74121672df0080636f8ddac3eb05559d5e6ebb",
+    "src/open_inquiry/uses.py": "597e269b25d3bbe4ef4263003325a4957f815e16099ff51e1f03cba0da5c1acf"
+  },
+  "baseline_sha256": "58f19a074e03e2df0fd2d9e566d46437ede9fd3bc6f68afb2412caf52925d8a6"
+}

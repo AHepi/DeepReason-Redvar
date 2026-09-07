@@ -1,0 +1,665 @@
+{
+  "model": "deepseek-v4-flash:0731",
+  "before": {
+    "max_calls": 12,
+    "max_tokens": 262144,
+    "charged_tokens": 40586,
+    "reserved_tokens": 0,
+    "used_calls": 6,
+    "reserved_calls": 0,
+    "unknown_calls": 6,
+    "remaining_tokens": 221558,
+    "remaining_calls": 6,
+    "paused": false,
+    "pause_reason": null,
+    "entries": {
+      "call-1": {
+        "key": "call-1",
+        "amount": 4011,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 1525,
+          "output_tokens": 1112,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 4011,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-2": {
+        "key": "call-2",
+        "amount": 5304,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 2729,
+          "output_tokens": 1017,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 5304,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-3": {
+        "key": "call-3",
+        "amount": 6544,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 3961,
+          "output_tokens": 1627,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 6544,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-4": {
+        "key": "call-4",
+        "amount": 6479,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 3877,
+          "output_tokens": 1377,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 6479,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-5": {
+        "key": "call-5",
+        "amount": 8008,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 5326,
+          "output_tokens": 1363,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 8008,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-6": {
+        "key": "call-6",
+        "amount": 10240,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 7684,
+          "output_tokens": 438,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 10240,
+        "observed_total": null,
+        "unknown": true
+      }
+    }
+  },
+  "after": {
+    "max_calls": 106,
+    "max_tokens": 110586,
+    "charged_tokens": 104580,
+    "reserved_tokens": 0,
+    "used_calls": 14,
+    "reserved_calls": 0,
+    "unknown_calls": 14,
+    "remaining_tokens": 6006,
+    "remaining_calls": 92,
+    "paused": false,
+    "pause_reason": null,
+    "entries": {
+      "call-1": {
+        "key": "call-1",
+        "amount": 4011,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 1525,
+          "output_tokens": 1112,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 4011,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-2": {
+        "key": "call-2",
+        "amount": 5304,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 2729,
+          "output_tokens": 1017,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 5304,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-3": {
+        "key": "call-3",
+        "amount": 6544,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 3961,
+          "output_tokens": 1627,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 6544,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-4": {
+        "key": "call-4",
+        "amount": 6479,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 3877,
+          "output_tokens": 1377,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 6479,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-5": {
+        "key": "call-5",
+        "amount": 8008,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 5326,
+          "output_tokens": 1363,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 8008,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-6": {
+        "key": "call-6",
+        "amount": 10240,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 7684,
+          "output_tokens": 438,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 10240,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-7": {
+        "key": "call-7",
+        "amount": 6960,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 4576,
+          "output_tokens": 1759,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 6960,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-8": {
+        "key": "call-8",
+        "amount": 6473,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 4162,
+          "output_tokens": 586,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 6473,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-9": {
+        "key": "call-9",
+        "amount": 9221,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 6504,
+          "output_tokens": 1427,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 9221,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-10": {
+        "key": "call-10",
+        "amount": 6336,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 4027,
+          "output_tokens": 625,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 6336,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-11": {
+        "key": "call-11",
+        "amount": 7129,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 4747,
+          "output_tokens": 956,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 7129,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-12": {
+        "key": "call-12",
+        "amount": 10240,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 7377,
+          "output_tokens": 595,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 10240,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-13": {
+        "key": "call-13",
+        "amount": 8472,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 5841,
+          "output_tokens": 812,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 8472,
+        "observed_total": null,
+        "unknown": true
+      },
+      "call-14": {
+        "key": "call-14",
+        "amount": 9163,
+        "calls": 1,
+        "status": "settled",
+        "usage": {
+          "input_tokens": 6450,
+          "output_tokens": 996,
+          "cached_input_tokens": null,
+          "reasoning_tokens": null,
+          "reasoning_included": null,
+          "accounting_complete": false
+        },
+        "charged_tokens": 9163,
+        "observed_total": null,
+        "unknown": true
+      }
+    }
+  },
+  "elapsed_seconds": 180.18588972091675,
+  "status": {
+    "engine_version": "0.4.0",
+    "profile": "creative",
+    "history": "off",
+    "participant_history": "selected",
+    "attention_learning": "on",
+    "commitment_actions": "registered",
+    "recording_gap": false,
+    "epoch": 2,
+    "inflight": null,
+    "resources": {
+      "max_calls": 106,
+      "max_tokens": 110586,
+      "charged_tokens": 104580,
+      "reserved_tokens": 0,
+      "used_calls": 14,
+      "reserved_calls": 0,
+      "unknown_calls": 14,
+      "remaining_tokens": 6006,
+      "remaining_calls": 92,
+      "paused": false,
+      "pause_reason": null,
+      "entries": {
+        "call-1": {
+          "key": "call-1",
+          "amount": 4011,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 1525,
+            "output_tokens": 1112,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 4011,
+          "observed_total": null,
+          "unknown": true
+        },
+        "call-2": {
+          "key": "call-2",
+          "amount": 5304,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 2729,
+            "output_tokens": 1017,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 5304,
+          "observed_total": null,
+          "unknown": true
+        },
+        "call-3": {
+          "key": "call-3",
+          "amount": 6544,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 3961,
+            "output_tokens": 1627,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 6544,
+          "observed_total": null,
+          "unknown": true
+        },
+        "call-4": {
+          "key": "call-4",
+          "amount": 6479,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 3877,
+            "output_tokens": 1377,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 6479,
+          "observed_total": null,
+          "unknown": true
+        },
+        "call-5": {
+          "key": "call-5",
+          "amount": 8008,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 5326,
+            "output_tokens": 1363,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 8008,
+          "observed_total": null,
+          "unknown": true
+        },
+        "call-6": {
+          "key": "call-6",
+          "amount": 10240,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 7684,
+            "output_tokens": 438,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 10240,
+          "observed_total": null,
+          "unknown": true
+        },
+        "call-7": {
+          "key": "call-7",
+          "amount": 6960,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 4576,
+            "output_tokens": 1759,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 6960,
+          "observed_total": null,
+          "unknown": true
+        },
+        "call-8": {
+          "key": "call-8",
+          "amount": 6473,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 4162,
+            "output_tokens": 586,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 6473,
+          "observed_total": null,
+          "unknown": true
+        },
+        "call-9": {
+          "key": "call-9",
+          "amount": 9221,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 6504,
+            "output_tokens": 1427,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 9221,
+          "observed_total": null,
+          "unknown": true
+        },
+        "call-10": {
+          "key": "call-10",
+          "amount": 6336,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 4027,
+            "output_tokens": 625,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 6336,
+          "observed_total": null,
+          "unknown": true
+        },
+        "call-11": {
+          "key": "call-11",
+          "amount": 7129,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 4747,
+            "output_tokens": 956,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 7129,
+          "observed_total": null,
+          "unknown": true
+        },
+        "call-12": {
+          "key": "call-12",
+          "amount": 10240,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 7377,
+            "output_tokens": 595,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 10240,
+          "observed_total": null,
+          "unknown": true
+        },
+        "call-13": {
+          "key": "call-13",
+          "amount": 8472,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 5841,
+            "output_tokens": 812,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 8472,
+          "observed_total": null,
+          "unknown": true
+        },
+        "call-14": {
+          "key": "call-14",
+          "amount": 9163,
+          "calls": 1,
+          "status": "settled",
+          "usage": {
+            "input_tokens": 6450,
+            "output_tokens": 996,
+            "cached_input_tokens": null,
+            "reasoning_tokens": null,
+            "reasoning_included": null,
+            "accounting_complete": false
+          },
+          "charged_tokens": 9163,
+          "observed_total": null,
+          "unknown": true
+        }
+      }
+    },
+    "accounts": [
+      {
+        "id": "account-1",
+        "name": "account-1",
+        "focus": "o000015",
+        "method": "o000002",
+        "recipe": "local",
+        "phase": "nomination",
+        "cycle": 5,
+        "uses": [],
+        "paused": false
+      }
+    ],
+    "retained_occurrences": 16,
+    "notices": [
+      "Attention proposal retained whole but too large to install; the current method remains.",
+      "Nomination did not start a trial; its prose remains available.",
+      "Nomination did not start a trial; its prose remains available.",
+      "Nomination did not start a trial; its prose remains available.",
+      "Nomination did not start a trial; its prose remains available."
+    ],
+    "claims": "Inspectable inquiry material; no truth, creativity or explanatory-improvement certification. Snapshot resumption, not remote-response replay."
+  },
+  "additional_budget": 70000,
+  "settings_changed": [
+    "run_token_volume",
+    "run_model_calls"
+  ]
+}
