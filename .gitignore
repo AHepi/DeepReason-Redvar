@@ -7,5 +7,6 @@ dist/
 .coverage
 .pytest_cache/
 runs/
+experiments/live-pilot-2026-09-07/runs*/
 *.key
 .env

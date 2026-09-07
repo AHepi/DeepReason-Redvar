@@ -1,0 +1,689 @@
+{
+  "problem": "causal_measurement",
+  "models": [
+    "glm-5.3-flash",
+    "deepseek-v4-flash:0731",
+    "gpt-oss:20b"
+  ],
+  "created_utc": "2026-09-07T07:19:11Z",
+  "results": [
+    {
+      "model": "glm-5.3-flash",
+      "condition": "direct",
+      "elapsed_seconds": 29.340688943862915,
+      "response": "",
+      "thinking_present": true,
+      "usage": {
+        "prompt_eval_count": 1254,
+        "prompt_eval_cached_count": null,
+        "eval_count": 1024,
+        "total_duration": 10539680905,
+        "eval_duration": null,
+        "done_reason": "length"
+      },
+      "error": null
+    },
+    {
+      "model": "glm-5.3-flash",
+      "condition": "harness",
+      "elapsed_seconds": 137.21782398223877,
+      "error": null,
+      "run": {
+        "provider": "ollama",
+        "counter": "estimated",
+        "steps": [
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-1",
+            "invitation": "develop",
+            "occurrence": "o000003",
+            "response": "",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-2",
+            "invitation": "examine",
+            "occurrence": "o000004",
+            "response": "",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-3",
+            "invitation": "respond",
+            "occurrence": "o000005",
+            "response": "",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-4",
+            "invitation": "read",
+            "occurrence": "o000006",
+            "response": "",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-5",
+            "invitation": "variation",
+            "occurrence": "o000007",
+            "response": "",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-6",
+            "invitation": "explore",
+            "occurrence": "o000008",
+            "response": "",
+            "mode": "read"
+          }
+        ],
+        "status": {
+          "engine_version": "0.4.0",
+          "profile": "creative",
+          "history": "off",
+          "participant_history": "selected",
+          "attention_learning": "off",
+          "commitment_actions": "registered",
+          "recording_gap": false,
+          "epoch": 2,
+          "inflight": null,
+          "resources": {
+            "max_calls": 24,
+            "max_tokens": 262144,
+            "charged_tokens": 14192,
+            "reserved_tokens": 0,
+            "used_calls": 6,
+            "reserved_calls": 0,
+            "unknown_calls": 6,
+            "remaining_tokens": 247952,
+            "remaining_calls": 18,
+            "paused": false,
+            "pause_reason": null,
+            "entries": {
+              "call-1": {
+                "key": "call-1",
+                "amount": 2347,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1009,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2347,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-2": {
+                "key": "call-2",
+                "amount": 2346,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1009,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2346,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-3": {
+                "key": "call-3",
+                "amount": 2394,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1045,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2394,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-4": {
+                "key": "call-4",
+                "amount": 2365,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1018,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2365,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-5": {
+                "key": "call-5",
+                "amount": 2365,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1021,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2365,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-6": {
+                "key": "call-6",
+                "amount": 2375,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1025,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2375,
+                "observed_total": null,
+                "unknown": true
+              }
+            }
+          },
+          "accounts": [
+            {
+              "id": "account-1",
+              "name": "account-1",
+              "focus": "o000001",
+              "method": "o000002",
+              "recipe": "local",
+              "phase": "nomination",
+              "cycle": 1,
+              "uses": [],
+              "paused": false
+            }
+          ],
+          "retained_occurrences": 8,
+          "notices": [],
+          "claims": "Inspectable inquiry material; no truth, creativity or explanatory-improvement certification. Snapshot resumption, not remote-response replay."
+        }
+      }
+    },
+    {
+      "model": "deepseek-v4-flash:0731",
+      "condition": "direct",
+      "elapsed_seconds": 19.510498046875,
+      "response": "",
+      "thinking_present": true,
+      "usage": {
+        "prompt_eval_count": 1254,
+        "prompt_eval_cached_count": null,
+        "eval_count": 1024,
+        "total_duration": 5981223249,
+        "eval_duration": null,
+        "done_reason": "length"
+      },
+      "error": null
+    },
+    {
+      "model": "deepseek-v4-flash:0731",
+      "condition": "harness",
+      "elapsed_seconds": 117.0059974193573,
+      "error": null,
+      "run": {
+        "provider": "ollama",
+        "counter": "estimated",
+        "steps": [
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-1",
+            "invitation": "develop",
+            "occurrence": "o000003",
+            "response": "",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-2",
+            "invitation": "examine",
+            "occurrence": "o000004",
+            "response": "",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-3",
+            "invitation": "respond",
+            "occurrence": "o000005",
+            "response": "",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-4",
+            "invitation": "read",
+            "occurrence": "o000006",
+            "response": "",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-5",
+            "invitation": "variation",
+            "occurrence": "o000007",
+            "response": "",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-6",
+            "invitation": "explore",
+            "occurrence": "o000008",
+            "response": "",
+            "mode": "read"
+          }
+        ],
+        "status": {
+          "engine_version": "0.4.0",
+          "profile": "creative",
+          "history": "off",
+          "participant_history": "selected",
+          "attention_learning": "off",
+          "commitment_actions": "registered",
+          "recording_gap": false,
+          "epoch": 2,
+          "inflight": null,
+          "resources": {
+            "max_calls": 24,
+            "max_tokens": 262144,
+            "charged_tokens": 14192,
+            "reserved_tokens": 0,
+            "used_calls": 6,
+            "reserved_calls": 0,
+            "unknown_calls": 6,
+            "remaining_tokens": 247952,
+            "remaining_calls": 18,
+            "paused": false,
+            "pause_reason": null,
+            "entries": {
+              "call-1": {
+                "key": "call-1",
+                "amount": 2347,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1011,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2347,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-2": {
+                "key": "call-2",
+                "amount": 2346,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1010,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2346,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-3": {
+                "key": "call-3",
+                "amount": 2394,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1047,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2394,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-4": {
+                "key": "call-4",
+                "amount": 2365,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1020,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2365,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-5": {
+                "key": "call-5",
+                "amount": 2365,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1024,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2365,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-6": {
+                "key": "call-6",
+                "amount": 2375,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1027,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2375,
+                "observed_total": null,
+                "unknown": true
+              }
+            }
+          },
+          "accounts": [
+            {
+              "id": "account-1",
+              "name": "account-1",
+              "focus": "o000001",
+              "method": "o000002",
+              "recipe": "local",
+              "phase": "nomination",
+              "cycle": 1,
+              "uses": [],
+              "paused": false
+            }
+          ],
+          "retained_occurrences": 8,
+          "notices": [],
+          "claims": "Inspectable inquiry material; no truth, creativity or explanatory-improvement certification. Snapshot resumption, not remote-response replay."
+        }
+      }
+    },
+    {
+      "model": "gpt-oss:20b",
+      "condition": "direct",
+      "elapsed_seconds": 29.3044171333313,
+      "response": "",
+      "thinking_present": true,
+      "usage": {
+        "prompt_eval_count": 1298,
+        "prompt_eval_cached_count": null,
+        "eval_count": 1024,
+        "total_duration": 12766800391,
+        "eval_duration": null,
+        "done_reason": "length"
+      },
+      "error": null
+    },
+    {
+      "model": "gpt-oss:20b",
+      "condition": "harness",
+      "elapsed_seconds": 172.1119246482849,
+      "error": null,
+      "run": {
+        "provider": "ollama",
+        "counter": "estimated",
+        "steps": [
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-1",
+            "invitation": "develop",
+            "occurrence": "o000003",
+            "response": "",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-2",
+            "invitation": "examine",
+            "occurrence": "o000004",
+            "response": "",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-3",
+            "invitation": "respond",
+            "occurrence": "o000005",
+            "response": "**1. What the supplied evidence actually tells us**\n\n| Arm | #cycles | S=1 cycles | Y=1 among S=1 | Conditional contamination risk, P(Y=1 | S=1) |\n|-----|---------|------------|--------------|-----------------------------------------------|\n| OFF | 200     | 160        | 32           | 32/160 = **0.20** (20 %) |\n| ON  | 200     | 80         | 8            | 8/80 = **0.10** (10 %) |\n\n*The only observable outcome data come from the 240 cycles where the optical gate produced S=1.  \nThe protocol never required sampling of the 120 S=0 cycles in the ON arm or the 40 S=0 cycles in the OFF arm; those Y values are truly missing.*\n\nConsequently, the only quantity we can estimate from the records is the *conditional* risk of contamination among cycles that are deemed “eligible” for sampling.  The observed 50 % reduction in that conditional risk (0.10 vs 0.20) does **not** automatically translate into an overall— across‑all‑cycles—reduction.  Whether the overall marginal risk is lower, equal, or higher still depends on the (unobserved) contamination distribution among the S = 0 cycles, and on any association between treatment and the eligibility signal itself.\n\n**2. The parts that remain undecided**\n\n| Question | Status |\n|----------|--------|\n| Does ON reduce the marginal probability of contamination (P(Y=1)) in all cycles? | **Undecided** – evidence only conditional on S = 1 |\n| Is the eligibility signal S independent of Y, or is it itself affected by the controller state? | **Undecided** – the optical‑smoothness calibration",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-4",
+            "invitation": "read",
+            "occurrence": "o000006",
+            "response": "**Technical assessment of the “Merewater” controller trial**\n\n| Arm | Total cycles | Assayed cycles (S = 1) | Y = 1 among assayed | Observed Y‑rate |\n|-----|--------------|------------------------|--------------------|-----------------|\n| OFF | 200 | 160 | 32 | 32/160 = 0.20 |\n| ON  | 200 | 80  | 8  | 8/80 = 0.10 |\n\nThe study was a perfectly randomized 1:1 assignment of the controller “ON” or “OFF”, and the **only** way a cycle could yield an assay result was if the optical gate registered *",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-5",
+            "invitation": "variation",
+            "occurrence": "o000007",
+            "response": "",
+            "mode": "read"
+          },
+          {
+            "status": "received",
+            "account": "account-1",
+            "opportunity": "grant-6",
+            "invitation": "explore",
+            "occurrence": "o000008",
+            "response": "**What the data actually say (what is established)**  \n\n1. **Random assignment** – Each of the 200 cycles in the ON arm and the 200 cycles in the OFF arm was assigned to the controller treatment by a fair, independent coin‑flip that was made before anything else in the cycle.  \n   *No carry‑over, assignment‑failure or differential attrition exists.*\n\n2. **Sampling schedule** – Before the trial a random timetable was created that chose a single “inspection slot” per",
+            "mode": "read"
+          }
+        ],
+        "status": {
+          "engine_version": "0.4.0",
+          "profile": "creative",
+          "history": "off",
+          "participant_history": "selected",
+          "attention_learning": "off",
+          "commitment_actions": "registered",
+          "recording_gap": false,
+          "epoch": 2,
+          "inflight": null,
+          "resources": {
+            "max_calls": 24,
+            "max_tokens": 262144,
+            "charged_tokens": 14192,
+            "reserved_tokens": 0,
+            "used_calls": 6,
+            "reserved_calls": 0,
+            "unknown_calls": 6,
+            "remaining_tokens": 247952,
+            "remaining_calls": 18,
+            "paused": false,
+            "pause_reason": null,
+            "entries": {
+              "call-1": {
+                "key": "call-1",
+                "amount": 2347,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1062,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2347,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-2": {
+                "key": "call-2",
+                "amount": 2346,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1061,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2346,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-3": {
+                "key": "call-3",
+                "amount": 2394,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1098,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2394,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-4": {
+                "key": "call-4",
+                "amount": 2365,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1071,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2365,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-5": {
+                "key": "call-5",
+                "amount": 2365,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1075,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2365,
+                "observed_total": null,
+                "unknown": true
+              },
+              "call-6": {
+                "key": "call-6",
+                "amount": 2375,
+                "calls": 1,
+                "status": "settled",
+                "usage": {
+                  "input_tokens": 1078,
+                  "output_tokens": 1024,
+                  "cached_input_tokens": null,
+                  "reasoning_tokens": null,
+                  "reasoning_included": null,
+                  "accounting_complete": false
+                },
+                "charged_tokens": 2375,
+                "observed_total": null,
+                "unknown": true
+              }
+            }
+          },
+          "accounts": [
+            {
+              "id": "account-1",
+              "name": "account-1",
+              "focus": "o000001",
+              "method": "o000002",
+              "recipe": "local",
+              "phase": "nomination",
+              "cycle": 1,
+              "uses": [],
+              "paused": false
+            }
+          ],
+          "retained_occurrences": 8,
+          "notices": [],
+          "claims": "Inspectable inquiry material; no truth, creativity or explanatory-improvement certification. Snapshot resumption, not remote-response replay."
+        }
+      }
+    }
+  ]
+}
