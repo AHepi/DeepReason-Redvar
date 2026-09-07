@@ -1,0 +1,9 @@
+# Fixture-friendly research run. This is not a calibrated live-provider budget.
+run_profile = "research"
+history = "profile_default"
+participant_history = "selected"
+attention_learning = "observe"
+commitment_actions = "registered"
+run_model_calls = 24
+run_token_volume = 262144
+strict_tokens = true

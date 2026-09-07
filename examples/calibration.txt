@@ -1,0 +1,13 @@
+Illustrative calibration note. This is an invented fixture, not a measurement.
+
+During a discarded preliminary procedure, B was zeroed against A.
+That preliminary procedure does not provide an independent calibration of B.
+
+The later procedure used a separate reference mass for B. Its stated operating
+range was 18 to 22 degrees Celsius. The disputed measurement was taken at
+30 degrees Celsius. This note does not establish how either balance behaves
+outside its stated calibration conditions.
+
+Finding the exact sentence fragment "B was zeroed against A." establishes that
+the phrase appears in this text. It does not establish that the later procedure
+used A, or settle whether B is an appropriate reference for the disputed use.

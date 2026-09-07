@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepreason-redvar"
+version = "0.4.0"
+description = "Prose-first Open Inquiry engine with bounded, revisable attention"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+open-inquiry = "open_inquiry.cli:main"
+redvar = "open_inquiry.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
